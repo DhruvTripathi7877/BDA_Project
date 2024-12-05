@@ -128,3 +128,4 @@ train_model(model, criterion, optimizer, train_loader, test_loader)
 
 # Save model
 torch.save(model.state_dict(), "cnn_model.pth")
+    
