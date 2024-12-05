@@ -27,7 +27,7 @@ const { predictRouter } = require("./routes/predict");
 app.use(bodyParser.json());
 
 // RHa57kyDkETv41ap
-const MONGO_URL = "mongodb+srv://dhruvtripathi7777:RHa57kyDkETv41ap@cluster0.iqwhz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const MONGO_URL = ""
 mongoose.connect(MONGO_URL)
     .then(() => {
         console.log('Connected To MongoDB')
